@@ -1,0 +1,93 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    max-height:70%;
+}
+html{
+    background-color: rgb(216, 202, 202);
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-template-areas:"aa bb";
+    
+}
+.two{
+    grid-area: aa;
+    background-color: white;
+}
+h1{
+    font-size:2.5em;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    padding-top:1.5em;
+    padding-left:2em;
+    font-size:1.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+
+p{
+    color:white;
+    font-size: large;
+    margin-top: -10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+    label{
+    display:inline-block;
+    width: 15%;
+    margin-bottom:2em;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 1.5em;
+}
+input{
+    margin-left:2em;
+    width:15em;
+    height:1.5em;
+    border:solid black 1px;
+}
+button{
+    background-color:crimson;
+    margin-left:3.8em;
+    border-style: none;
+    border-radius: 2em;
+    padding-top:1em;
+    padding-right:13em;
+    padding-left:12em;
+    padding-bottom:1em;
+    color: white;
+    margin-top:-40px;
+}
+#big{
+    border: solid white 2px;
+    margin-bottom:10em;
+    padding-right:2em;
+    padding-left:2em;
+    margin-top:0.5em;
+    color:white;
+    margin-left:2em ;
+    margin-right: 3em;
+}
+
+
+.one{
+    grid-area: bb;
+    background-color: crimson;
+    text-align: center;
+    padding-top:6em;
+}
+h2{
+    text-align: center;
+    padding: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5em;
+}

@@ -1,0 +1,65 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,100px);
+    grid-template-areas: "lanre lanre efe efe"
+                          "lanre lanre larry larry"
+                          "prince victor nathan chidi"
+                          "franc franc franc  mike"
+                          "akan david  emeka vincent"
+                          "kevin kevin kevin kevin";
+                            
+gap:1em;
+}
+article{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    font-family:sans-serif;
+    font-style: italic;
+}
+article:nth-of-type(1){
+    grid-area:lanre;
+
+}
+article:nth-of-type(2){
+    grid-area: efe;
+
+}
+article:nth-of-type(3){
+    grid-area: prince;
+
+}
+article:nth-of-type(4){
+    grid-area:victor;
+}
+article:nth-of-type(5){
+    grid-area: nathan;
+}
+article:nth-of-type(6){
+    grid-area: chidi;
+}
+article:nth-of-type(7){
+    grid-area: franc;
+}
+article:nth-of-type(8){
+    grid-area: mike;
+}
+article:nth-of-type(9){
+    grid-area:akan;
+}
+article:nth-of-type(10){
+    grid-area:david;
+}
+article:nth-of-type(11){
+    grid-area:emeka;
+}
+article:nth-of-type(12){
+    grid-area:vincent;
+}
+article:nth-of-type(13){
+    grid-area:kevin; 
+}
+article:nth-of-type(14){
+    grid-area:larry;
+}

@@ -1,0 +1,64 @@
+
+html{
+    font-size: 30px;
+    border-color: black;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+
+    border: 5px;
+    border-style:solid;
+}
+h1+p{
+    font-size: 200px;
+
+}
+h1{
+    background-color: chocolate;
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+}
+nav  {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    
+}
+nav a{
+    text-decoration: none;
+    padding:2em 4em;
+    
+}
+form{
+    padding: 2em 0;
+}
+  nav a:hover{
+background-color: fuchsia;
+}
+main{
+    display:flex;
+}
+article{
+    padding:6em;
+    background-color: burlywood;
+    font-size: 15px;
+}
+article *{
+    font-size: 2em;
+}
+aside{
+    font-size: 0.8rem;
+    padding: 4em;
+    background-color: aquamarine;
+}
+footer{
+    background-color: chocolate;
+    padding:2em  0em;
+
+}
+
+
+

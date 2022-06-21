@@ -1,0 +1,72 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 300px 100px 300px 100px 300px;
+    gap: 2em;
+    border:30px;
+}
+.first{
+    grid-area: 4/3/5/4;
+    background-color: blueviolet;
+    border:dotted 10px yellow;
+
+}
+.second{
+    grid-area: 1/1/4/3;
+    background-color:orangered;
+    border: double 10px fuchsia;
+
+}
+.third{
+    grid-area:6/1/7/4 ;
+    background-color:palevioletred;
+    border: groove 10px grey;
+    background-image: url(../images/curly\ hair.jpg);
+    background-repeat:no-repeat;
+    background-size:fill;
+    background-attachment: scroll;
+    object-fit:cover;
+
+}
+.fourth{
+    grid-area:1/3/2/4;
+    background-color:limegreen;
+    border: dashed 10px moccasin;
+
+}
+.fifth{
+    grid-area:5/1/6/2;
+    background-color:yellow;
+    border:solid 10px red;
+}
+.sixth{
+    grid-area: 3/3/4/4;
+    background-color:peachpuff;
+    border:double 10px midnightblue;
+}
+.seventh{
+    grid-area:4/2/5/3 ;
+    background-color:firebrick;
+    border: solid 10px blueviolet;
+}
+.eighth{
+    grid-area:5/2/6/4;
+    background-color:paleturquoise;
+    border:double 10px black;
+}
+.ninenth{
+    grid-area:2/3/3/4;
+    background-color:brown;
+    border:  dotted 10px greenyellow;
+    background-image: url("../images/bj.jpg");
+    background-position:center ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit:contain;
+} 
+.tenth{
+    grid-area:4/1/5/2;
+    background-color:cyan;
+    border:dashed 10px deeppink;
+
+}

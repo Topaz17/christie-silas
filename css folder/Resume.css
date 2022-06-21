@@ -1,0 +1,259 @@
+.container{
+    display:grid;
+    grid-template-columns:1,2fr;
+    grid-template-areas:"aa"
+            "bb"
+            "cc"
+            "dd"
+            "ee"
+            "ff"
+            "gg"
+            "hh"
+            "ii"
+            "jj";
+    
+}
+header{
+    grid-area:aa;
+    background-color: aquamarine;
+    background-image:url(../images/SKY.png);
+    background-repeat: no-repeat;
+    height:500px;
+    border-radius:10px;
+    border:7px gainsboro solid ;
+}
+h1{
+    text-align: center;
+    margin-top:200px ;
+    color: white;
+    font-size:70px;
+    
+}
+nav a{
+    margin-left:6em;
+    text-decoration:none;
+    color:white;
+}
+nav ul{
+    list-style-type:none;
+    text-align:right;
+}
+
+
+ nav li{
+     display:inline-block;
+     padding-right:0.5em;
+}
+span{
+    color: rgb(20, 90, 144);
+}
+p{
+    font-size:20px;
+}
+
+.one{
+    grid-area:bb;
+}
+.one{
+    display:grid;
+    grid-template-columns:2,1fr;
+    /*grid-template-rows:1,400px;*/
+    grid-template-areas:"a b b";
+}
+aside{
+    grid-area:a;
+}
+#photo{
+    background-image:url(../images/kris.png);
+    background-repeat:no-repeat;
+    height:400px;
+    width:400px;
+    margin-left:2.5em;
+    margin-top:2.5em;
+}
+article{
+    grid-area:b;
+    background-color:white;
+    padding-top:2.5em;
+}
+article a{
+    padding:5em;
+    font-size:20px;
+    color: black;
+}
+article p{
+    padding-top:1.5em;
+}
+article h2{
+    padding-top:1.5em;
+}
+     article a:hover{
+    background-color:rgb(20, 90, 144);
+    padding:0.5em;
+     }    
+
+.two{
+    grid-area:cc;
+color:black;
+text-align:center;
+}
+.three{
+    grid-area:dd;
+    color:black;
+    text-align:center;
+    padding-bottom:3em;
+}
+.gold{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,500px);
+    grid-template-areas:"hh ii jj"
+    "kk  ll   mm";        
+gap:1em;
+}
+section{
+    background-color:green;
+    border:2px solid black;
+}
+section:nth-of-type(1){
+    grid-area: hh;
+    background-image:url(../images/piza.png);
+}
+section:nth-of-type(2){
+    grid-area: ii;
+    background-image: url(../images/purple\ flyer.png);
+
+}
+section:nth-of-type(3){
+    grid-area: jj;
+    background-image: url(../images/TOP.png);
+    
+}
+section:nth-of-type(4){
+    grid-area:kk ;
+    background-image:url(../images/bezarrt.png);
+    
+}
+section:nth-of-type(5){
+    grid-area: ll;
+    background-image: url(../images/nail\ art\ -\ Copy.png);
+    
+}
+section:nth-of-type(6){
+    background-image: url(../images/christy\ flyer\ 2.png);
+    grid-area: mm;
+}   
+ .align{
+  display:flex;
+ justify-content:space-evenly;
+}
+.align h5:hover{
+ background-color:rgb(20, 90, 144);
+}       
+
+.four{
+grid-area:ee;
+background-image: url(../images/SCRAPER.png);
+height:200px;
+}
+.money {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:3em;
+    color:crimson;
+    text-align:center;
+    font-size:25px;
+}
+.money p{ 
+    color: white;
+    margin-top:-25px;
+}
+.book h5{
+    display: block;
+    flex-direction:row;
+}
+.pulp h5{
+display:block;
+flex-direction:row;
+}
+.paper h5{
+    display:block;
+    flex-direction:row;
+}
+.leaf h5{
+    display:block;
+    flex-direction:row;
+}
+.five{
+    grid-area:ff;
+}
+.six{
+    grid-area:gg;
+    text-align:center;
+}
+.ten{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-areas:"nn oo pp"
+                    "qq rr ss";
+gap:1em;
+}
+aside{
+    background-color: cyan;
+}
+ aside:nth-of-type(1){
+    grid-area:nn;
+    border-radius:200px;
+    width:200px;
+    height:200px;
+    background-image: url(../images/beaches.png);
+    background-repeat: no-repeat;
+    border:2px solid black;
+ }
+ aside:nth-of-type(2){
+    grid-area:oo;
+    border-radius:200px;
+    width:200px;
+    height:200px;
+    background-image: url(../images/beaches.png);
+    background-repeat: no-repeat;
+}
+ aside:nth-of-type(3){
+    grid-area: pp;
+    border-radius:200px;
+    display:flex;
+    flex-direction:row;
+     width:200px;
+     height:200px;
+    /* background-image: url(../images/beaches.png); */
+    background-repeat: no-repeat;
+    background-position:right;
+}
+aside:nth-of-type(4){
+    grid-area:qq;
+    width:400px;
+    height:200px;
+    margin-top:-1em;
+}
+ aside:nth-of-type(5){
+    grid-area:rr;
+    width:400px;
+    height:200px;
+    margin-top:-1em;
+}
+aside:nth-of-type(6){
+    grid-area:ss;
+    width:400px;
+    height:200px;
+    margin-top:-1em;
+}
+.seven{
+    grid-area:hh;
+}
+.eight{
+    grid-area:ii;
+}
+.nine{
+    grid-area:jj;
+}

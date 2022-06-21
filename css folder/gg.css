@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,100px);
+    grid-template-areas: "bb bb aa aa aa jj"
+                        "cc cc aa aa aa jj"
+                         "cc cc aa aa aa ii"
+                         "dd dd kk kk kk hh"
+                         "dd dd ee ff ff gg";
+    gap: 1em;                     
+}
+
+aside{
+    background-color: blue;
+}
+
+#pick{
+    grid-area: aa;
+    background-color: burlywood;
+    
+
+}
+aside:nth-of-type(2){
+    grid-area: bb;
+}
+aside:nth-of-type(3){
+    background-color:yellow;
+    grid-area: cc;
+}
+aside:nth-of-type(4){
+    grid-area: dd;
+}
+aside:nth-of-type(5){
+    grid-area: ee;
+}
+aside:nth-of-type(6){
+    grid-area: ff;
+}
+aside:nth-of-type(7){
+    grid-area: gg;
+}
+aside:nth-of-type(8){
+    grid-area: hh;
+}
+aside:nth-of-type(9){
+    grid-area: ii;
+}
+aside:nth-of-type(10){
+    grid-area: jj;
+}
+aside:nth-of-type(11){
+    grid-area: kk;
+}

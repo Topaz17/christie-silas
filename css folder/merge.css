@@ -1,0 +1,381 @@
+html{
+    background-color: aquamarine;
+}
+.container{
+    display:grid;
+    grid-template-columns:1,2fr;
+    /* grid-template-rows:repeat(3,300px); */
+    grid-template-areas: "aa"
+                        "bb"
+                        "cc";
+}
+
+header{
+    grid-area:aa;
+    background:url(../images/watch.png),radial-gradient(pink 30%, crimson);
+    background-repeat:no-repeat;
+    background-position:right center;
+    padding-bottom:6.2em;
+    padding-left:3em;
+}
+h1{
+    font-style: italic;
+}
+    header p{
+        font-size:20px;
+        font-style:italic;
+    }
+    h3{
+        font-style:bold;
+        font-size:20px;
+    }
+ button{
+    border:none;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:4em;
+    padding-left:4em;
+    border-radius:3em;
+    background-color:red;
+    margin-top:20px;
+    color: white;
+    font-style:italic;
+ }
+ h2{
+     text-align: center;
+     text-decoration: underline crimson;
+     font-style:italic;
+ }
+article{
+    grid-area: bb;
+    background-color:white;
+}
+.review{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-areas: "aa bb cc";
+    gap: 1em;
+}
+section{
+background-color: aqua;
+width:400px;
+height:500px;
+justify-content:space-between;
+}
+section:nth-of-type(1){
+    grid-area: aa;
+    background-image:url(../images/review1.png);
+
+}
+section:nth-of-type(2){
+    grid-area:bb;
+    background-image:url(../images/review2.png);
+    
+}
+section:nth-of-type(3){
+    grid-area:cc;
+    background-image: url(../images/review3.png);
+    
+}
+.logo{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-areas:"dd ee ff gg hh";
+    gap:1em;
+}
+aside{
+background-color: darkblue;
+width:250px;
+height:250px;
+}
+aside:nth-of-type(1){
+grid-area:dd;
+background-image:url(../images/gucci.png);
+}
+aside:nth-of-type(2){
+grid-area:ee;
+background-image:url(../images/Nike.png);
+}
+aside:nth-of-type(3){
+grid-area:ff;
+background-image: url(../images/puma.png);
+}
+aside:nth-of-type(4){
+ background-image: url(../images/Versace.png);
+grid-area:gg;
+}
+aside:nth-of-type(5){
+grid-area:hh;
+background-image: url(../images/ADIDAS.png);
+}
+footer{
+    grid-area:cc;
+    background-color:black;
+}
+footer #below{
+    color:white;
+    text-align: center;
+}
+
+.bottom{
+    color:white;
+    display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+ 
+.first h4{
+    display: block;
+    flex-direction:row;
+}
+.second h4{
+    display: block;
+    flex-direction:row;
+    padding-left:1.5em;
+}
+.third h4{
+    display: block;
+    flex-direction:row;
+    padding-left:1.5em;
+}
+.four h4{
+    display: block;
+    flex-direction:row;
+    padding-left:1.5em;
+}
+
+ul{
+    list-style-type:none;
+}
+ li{ 
+  padding-block:0.4em;
+} 
+
+
+.container1{
+
+    display:grid;
+    grid-template-columns:1,2fr;
+    /* grid-template-rows:500px 700px */
+    grid-template-areas:"aa"
+                        "bb";
+}
+.one header{
+grid-area:aa;
+padding-left:4em;
+padding-right:4em;
+background:url(../images/rama2.png),radial-gradient(pink 30%, crimson);
+background-repeat: no-repeat;
+background-position:right;
+padding-bottom:15em;
+padding-top:1.5em;
+font-family: san-serif;
+font-style: italic;
+}
+.one header p{
+    font-size: 20px;
+}
+.one header h1{
+
+    font-size:4em;
+}
+.one header h2{
+    text-decoration:none;
+    font-size: 2em;
+    text-align: left;
+}
+
+.one nav a{
+text-decoration:none;
+padding-inline-start:1em;
+color:black;
+font-size:1.2em;
+}
+.one nav{
+    display:flex;
+    justify-content:space-between;
+
+}
+.one .y{
+    padding-right:2em;
+}
+.one .x{
+    padding-left:0.1em;
+    
+}
+.one.start{
+    padding-top:10em;
+}
+
+.one h2{
+    margin-top:-10px;
+    font-size:25px;
+}
+
+.one article{
+    grid-area:bb;
+    background-color:white;
+}
+.one article h2{
+    text-align:center;
+    color:black;
+    text-decoration:crimson underline ;
+    font-family: san-serif;
+    font-style: italic;
+    padding-top:1.5em;
+    
+        
+}
+.one .products{
+    display:flex;
+}
+.one .products{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(2,350px);
+    grid-template-areas:"aa bb cc dd" 
+                        "ee ff gg hh";
+    gap:1em;
+}
+.one aside{
+    background-color:white;
+    border:gainsboro solid 3px;
+    border-radius:4px;
+}
+.one aside ul{
+    padding-top: 15em;
+    color:black;
+    list-style-type: none;
+}
+.one section ul{
+    padding-top: 15em;
+    color:black;
+    list-style-type: none; 
+}
+.bi-star-fill{
+color: crimson;
+}
+.bi-star-half{
+    color: crimson; 
+}
+.bi-star{
+    color: crimson;
+}
+.one aside:nth-of-type(1){
+    background-image:url(../images/teen.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(2){
+    background-image:url(../images/gown.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(3){
+    background-image:url(../images/brown.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(4){
+    background-image:url(../images/cat.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(4){
+    background-image:url(../images/blue.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(5){
+    background-image:url(../images/jeans.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(6){
+    background-image:url(../images/bikini.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(7){
+    background-image:url(../images/denim.png);
+    width:321px;
+    height:250px;
+}
+.one aside:nth-of-type(8){
+    background-image:url(../images/hoodies.png);
+    width:321px;
+    height:250px;
+    
+}
+
+.one button{
+    border:none;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:4em;
+    padding-left:4em;
+    border-radius:3em;
+    background-color:red;
+    margin-top:20px;
+    color: white;
+}
+.one.bi-arrow-right-short{
+    color:white;
+}
+.one .box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(2,350px);
+    grid-template-areas:"aa bb cc dd" 
+                        "ee ff gg hh";
+    gap:1em;
+}
+.one section{
+    border:gainsboro solid 1.5px;
+    
+}
+    
+.one section:nth-of-type(1){
+    background-image:url(../images/yellow.png);
+    width:321px;
+    height:250px;
+}
+.one section:nth-of-type(2){
+    background-image:url(../images/stud.png);
+    width:321px;
+    height:250px;
+}
+.one section:nth-of-type(3){
+    background-image:url(../images/red.png);
+    width:321px;
+    height:250px;
+}
+
+.one section:nth-of-type(4){
+    background-image:url(../images/white.png);
+    width:321px;
+    height:250px;
+}
+
+.one section:nth-of-type(5){
+    background-image:url(../images/crab.png);
+    width:321px;
+    height:250px;
+}
+
+.one section:nth-of-type(6){
+    background-image:url(../images/pearl.png);
+    width:321px;
+    height:250px;
+}
+.one section:nth-of-type(7){
+    background-image:url(../images/diamond.png);
+    width:321px;
+    height:250px;
+}
+.one section:nth-of-type(8){
+    background-image:url(../images/violet.png);
+    width:321px;
+    height:250px;
+}
+

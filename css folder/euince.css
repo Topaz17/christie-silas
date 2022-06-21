@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:600px;
+    grid-template-areas:"aa bb";
+    }
+.one{ 
+    grid-area:aa;
+    padding-left: 2em;
+    background-color: beige;
+}
+.pen{
+    display:inline-block;
+    width:20%;
+    height: 2em;
+}
+.book{
+    width:25em;
+    height:2em;
+}   
+#none{
+    list-style-type: none;
+}
+
+.two{
+    grid-area: bb;
+    background-color:crimson;
+    padding-top:4em;
+    text-align:center;
+    justify-content:space-around;
+    color:black;
+}

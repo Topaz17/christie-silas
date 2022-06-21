@@ -1,0 +1,223 @@
+.container{
+    display:grid;
+    grid-template-columns:1,2fr;
+    /* grid-template-rows:500px 700px */
+    grid-template-areas:"aa"
+                        "bb";
+}
+header{
+grid-area:aa;
+padding-left:4em;
+padding-right:4em;
+background:url(../images/rama2.png),radial-gradient(pink 30%, crimson);
+background-repeat: no-repeat;
+background-position:right;
+ padding-bottom:15em;
+padding-top:1.5em;
+font-family: san-serif;
+font-style: italic;
+}
+header p{
+    font-size: 20px;
+}
+header h1{
+    font-size:4em;
+}
+header h2{
+    font-size: 2em;
+}
+
+nav a{
+text-decoration:none;
+padding-inline-start:1em;
+color:black;
+font-size:1.2em;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+
+}
+.y{
+    padding-right:2em;
+}
+.x{
+    padding-left:0.1em;
+    
+}
+.start{
+    padding-top:10em;
+}
+
+h2{
+    margin-top:-10px;
+    font-size:25px;
+}
+
+article{
+    grid-area:bb;
+    background-color:white;
+}
+article h2{
+    text-align:center;
+    color:black;
+    text-decoration:crimson underline ;
+    font-family: san-serif;
+    font-style: italic;
+    padding-top:1.5em;
+    
+        
+}
+.products{
+    display:flex;
+}
+.products{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(2,350px);
+    grid-template-areas:"aa bb cc dd" 
+                        "ee ff gg hh";
+    gap:1em;
+}
+aside{
+    background-color:white;
+    border:gainsboro solid 3px;
+    border-radius:4px;
+}
+aside ul{
+    padding-top: 15em;
+    color:black;
+    list-style-type: none;
+}
+section ul{
+    padding-top: 15em;
+    color:black;
+    list-style-type: none; 
+}
+.bi-star-fill{
+color: crimson;
+}
+.bi-star-half{
+    color: crimson; 
+}
+.bi-star{
+    color: crimson;
+}
+aside:nth-of-type(1){
+    background-image:url(../images/teen.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(2){
+    background-image:url(../images/gown.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(3){
+    background-image:url(../images/brown.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(4){
+    background-image:url(../images/cat.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(4){
+    background-image:url(../images/blue.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(5){
+    background-image:url(../images/jeans.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(6){
+    background-image:url(../images/bikini.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(7){
+    background-image:url(../images/denim.png);
+    width:321px;
+    height:250px;
+}
+aside:nth-of-type(8){
+    background-image:url(../images/hoodies.png);
+    width:321px;
+    height:250px;
+    
+}
+
+button{
+    border:none;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:4em;
+    padding-left:4em;
+    border-radius:3em;
+    background-color:red;
+    margin-top:20px;
+    color: white;
+}
+.bi-arrow-right-short{
+    color:white;
+}
+.box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(2,350px);
+    grid-template-areas:"aa bb cc dd" 
+                        "ee ff gg hh";
+    gap:1em;
+}
+section{
+    border:gainsboro solid 1.5px;
+    
+}
+    
+section:nth-of-type(1){
+    background-image:url(../images/yellow.png);
+    width:321px;
+    height:250px;
+}
+section:nth-of-type(2){
+    background-image:url(../images/stud.png);
+    width:321px;
+    height:250px;
+}
+section:nth-of-type(3){
+    background-image:url(../images/red.png);
+    width:321px;
+    height:250px;
+}
+
+section:nth-of-type(4){
+    background-image:url(../images/white.png);
+    width:321px;
+    height:250px;
+}
+
+section:nth-of-type(5){
+    background-image:url(../images/crab.png);
+    width:321px;
+    height:250px;
+}
+
+section:nth-of-type(6){
+    background-image:url(../images/pearl.png);
+    width:321px;
+    height:250px;
+}
+section:nth-of-type(7){
+    background-image:url(../images/diamond.png);
+    width:321px;
+    height:250px;
+}
+section:nth-of-type(8){
+    background-image:url(../images/violet.png);
+    width:321px;
+    height:250px;
+}
+

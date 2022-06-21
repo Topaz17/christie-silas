@@ -1,0 +1,162 @@
+
+html{
+    background-color:rgb(130, 123, 123);
+}
+body{
+    max-width:70%;
+    margin: 0 auto ;
+    margin-top:2em; 
+    margin-bottom: 2em;
+    
+}
+.container{
+   display: grid; 
+   grid-template-columns: 1fr 2fr;
+   grid-template-areas: "aa bb";
+   margin-top:3em; 
+   margin-bottom:3em ;
+}
+
+aside{
+    grid-area: aa;
+    background-color:rgb(24, 24, 24); 
+}
+
+article h2{
+    color:white;
+    background-color: gold;
+    font-size: 25px;
+}
+ h4{
+    font: size 20px;
+    margin-top:-20px;
+}
+h5{
+font-size:10px;
+margin-top:-20px;
+
+}
+p{
+margin-top:-10px;
+padding-bottom: 10px;
+
+}
+ .graph{
+ display:flex;
+ flex-direction:row;
+}
+.x h5{
+    display:block;
+    flex-direction:row;
+    color:yellow;
+    font-size:15px;
+    font-weight:bold;
+    padding-top:1em ;
+}
+.y h5{
+    display:block;
+    flex-direction:row;
+    color:yellow;
+    font-size:15px;
+    font-weight:bold;
+    padding-top:1em;
+}
+
+article{
+    grid-area: bb;
+    background-color: white;
+}
+aside h2{
+color: white;
+background-color:none;
+text-align:center;
+}
+aside h4{
+    color:white ;
+    text-decoration:underline;
+    text-align: center;
+    margin-top:-20px;
+}
+aside img{
+    width:350px;
+    height:350px;
+    align-items: center;
+
+}
+#brass{
+    color:white;
+    text-align:center;
+    padding-inline:block;
+    margin-top:-70px;
+}
+aside p{
+color:white;
+text-align: center;
+padding-top: 20px;
+}
+#silver{
+color:white;
+text-align:center;
+padding-inline:block;
+margin-top:-70px;
+}
+ul{
+    list-style-type:none;
+    margin-left:-2em;
+}
+li{
+    color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+a{
+    color:white;
+    margin-top:-20px;
+}
+#globe{
+    background-color:white;
+    border:10px;
+    border-radius:10px;
+    padding:0.2em;
+}
+#location{
+    background-color:white;
+    border:10px;
+    border-radius:10px;
+    padding:0.2em;
+}
+#phone{
+    background-color:white;
+    border:10px;
+    border-radius:10px;
+    padding:0.2em;
+}
+#envelope{
+    background-color:white;
+    border-radius:10px;
+    padding:0.2em;
+}
+
+#bronze{
+color:white;
+ text-align:center;
+padding-inline:block;
+margin-top:-70px ;
+}
+#gold{
+    width:100px;
+    height:100px; 
+}
+.bi-mortarboard{
+    padding-right:0.5em;
+    background-color: black;
+}
+.bi-trophy{
+    padding-right:0.5em;
+    background-color: black;
+}
+.bi-briefcase{
+    padding-right:0.5em;
+    background-color: black;
+}
+

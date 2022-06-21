@@ -1,0 +1,14 @@
+.grid_container{
+    display: grid;
+    grid-template-columns:repeat(2,30% 60%) ;
+    grid-template-rows:100px;
+    gap: 1em;
+}
+/*  
+.sidenav{
+    grid-area: ;
+}
+.content{
+    grid-area:
+}
+*/
